@@ -1,0 +1,36 @@
+enum DefaultMailAddress { BUSINESS, HOME }
+
+enum PaymentOption { ONLINE, REGISTERBYEMAIL }
+
+enum YearSelection { CURRENT, UPCOMING }
+
+enum TextFieldType {
+  DEPARTMENT,
+  FIRSTNAME,
+  LASTNAME,
+  MIDDLENAME,
+  EMAIL,
+  MOBILE,
+  MESSAGE,
+  SALUTATION,
+  CITY,
+  COUNTRY,
+  NATIONALITY,
+  DOB,
+  PHONENUMBER,
+  ORGANISATION,
+  JOBTITLE,
+  POBOX,
+  JOBCODE,
+  INDUSTRYCODE,
+  INDUSTRYSUBCODE,
+  PASSPORT,
+  BMOBILE,
+  BPHONENUMBER,
+}
+
+enum MembershipTag {
+  NEW,
+  RENEW,
+  EDIT,
+}
